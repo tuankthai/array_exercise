@@ -1,3 +1,5 @@
+const { findCommonElements } = require("./arrayChallenge")
+  console.log(findCommonElements)
 // Unit test for findCommonElements function
 const assert = require('assert');
 
@@ -17,3 +19,4 @@ for (const [arr1, arr2, expected] of testCases) {
 }
 
 console.log('All test cases passed!');
+
